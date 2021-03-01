@@ -1,12 +1,12 @@
 <p align="center">
-<img src="https://github.com/duo-labs/webauthn.io/blob/master/static/dist/images/header-illi.png?raw=true" height="400"/>
+<img src="https://github.com/quexten/webauthn.io/blob/master/static/dist/images/header-illi.png?raw=true" height="400"/>
 </p>
 
 ## About
 
 This is the source code for [webauthn.io](https://webauthn.io), a demonstration of the Web Authentication specification, or WebAuthn.
 
-This server provides a simple reference implementation of how to add WebAuthn to an application using the [`duo-labs/webauthn`](https://github.com/duo-labs/webauthn) Go library.
+This server provides a simple reference implementation of how to add WebAuthn to an application using the [`quexten/webauthn`](https://github.com/quexten/webauthn) Go library.
 
 ## Installation
 
@@ -37,7 +37,7 @@ After the container launches, you can navigate to localhost:9005 to see the appl
 To get started using a local instance of webauthn.io, first download the source code using:
 
 ```
-go get github.com/duo-labs/webauthn.io
+go get github.com/quexten/webauthn.io
 ```
 
 Then, edit `config.json` as needed.

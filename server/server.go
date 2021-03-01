@@ -8,10 +8,10 @@ import (
 
 	"log"
 
-	"github.com/duo-labs/webauthn.io/config"
-	"github.com/duo-labs/webauthn.io/session"
-	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/gorilla/mux"
+	"github.com/quexten/webauthn.io/config"
+	"github.com/quexten/webauthn.io/session"
+	"github.com/quexten/webauthn/webauthn"
 )
 
 // Timeout is the number of seconds to attempt a graceful shutdown, or

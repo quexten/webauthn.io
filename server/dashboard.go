@@ -3,7 +3,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/duo-labs/webauthn.io/models"
+	"github.com/quexten/webauthn.io/models"
 )
 
 // Index renders the dashboard index page, displaying the created credential

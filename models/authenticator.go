@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/jinzhu/gorm"
+	"github.com/quexten/webauthn/webauthn"
 )
 
 // Authenticator is a struct representing a WebAuthn authenticator, which is

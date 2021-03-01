@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/duo-labs/webauthn.io/config"
-	log "github.com/duo-labs/webauthn.io/logger"
+	"github.com/quexten/webauthn.io/config"
+	log "github.com/quexten/webauthn.io/logger"
 
 	_ "github.com/go-sql-driver/mysql" // Blank import needed to import mysql
 	"github.com/jinzhu/gorm"

@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/duo-labs/webauthn.io/config"
+	"github.com/quexten/webauthn.io/config"
 	"github.com/sirupsen/logrus"
 )
 

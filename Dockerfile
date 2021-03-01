@@ -1,13 +1,13 @@
 FROM golang:alpine AS build-env
 RUN apk add git build-base
-WORKDIR /go/src/github.com/duo-labs/webauthn.io
+WORKDIR /go/src/github.com/quexten/webauthn.io
 COPY . .
 RUN go get -d -v ./...
 RUN go build -o webauthn.io
 
 FROM alpine
 WORKDIR /opt/webauthn.io
-COPY --from=build-env /go/src/github.com/duo-labs/webauthn.io/webauthn.io /opt/webauthn.io/webauthn.io
+COPY --from=build-env /go/src/github.com/quexten/webauthn.io/webauthn.io /opt/webauthn.io/webauthn.io
 COPY ./static/dist static/dist
 COPY ./templates templates/
 COPY ./config.json config.json

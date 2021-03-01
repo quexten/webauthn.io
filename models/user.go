@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 
-	log "github.com/duo-labs/webauthn.io/logger"
-	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/jinzhu/gorm"
+	log "github.com/quexten/webauthn.io/logger"
+	"github.com/quexten/webauthn/webauthn"
 )
 
 // PlaceholderUsername is the default username to use if one isn't provided by

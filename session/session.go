@@ -6,9 +6,9 @@ import (
 	"errors"
 	"net/http"
 
-	log "github.com/duo-labs/webauthn.io/logger"
-	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/gorilla/sessions"
+	log "github.com/quexten/webauthn.io/logger"
+	"github.com/quexten/webauthn/webauthn"
 )
 
 // DefaultEncryptionKeyLength is the length of the generated encryption keys

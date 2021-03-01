@@ -3,10 +3,10 @@ package server
 import (
 	"net/http"
 
-	log "github.com/duo-labs/webauthn.io/logger"
-	"github.com/duo-labs/webauthn.io/models"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
+	log "github.com/quexten/webauthn.io/logger"
+	"github.com/quexten/webauthn.io/models"
 )
 
 // CreateUser adds a new user to the database

@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	log "github.com/duo-labs/webauthn.io/logger"
-	"github.com/duo-labs/webauthn.io/models"
-	"github.com/duo-labs/webauthn/protocol"
-	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/gorilla/mux"
+	log "github.com/quexten/webauthn.io/logger"
+	"github.com/quexten/webauthn.io/models"
+	"github.com/quexten/webauthn/protocol"
+	"github.com/quexten/webauthn/webauthn"
 )
 
 // RequestNewCredential begins a Credential Registration Request, returning a

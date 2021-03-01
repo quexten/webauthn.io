@@ -5,12 +5,12 @@ import (
 	"errors"
 	"net/http"
 
-	log "github.com/duo-labs/webauthn.io/logger"
-	"github.com/duo-labs/webauthn.io/models"
-	"github.com/duo-labs/webauthn/protocol"
-	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
+	log "github.com/quexten/webauthn.io/logger"
+	"github.com/quexten/webauthn.io/models"
+	"github.com/quexten/webauthn/protocol"
+	"github.com/quexten/webauthn/webauthn"
 )
 
 // ErrCredentialCloned occurs when an authenticator provides a sign count
